@@ -10,6 +10,7 @@ export const Main: FC = () => {
 	const { countries = [], isError, isLoading, isSuccess } = useGetAllCountries()
 	return (
 		<main>
+			{isLoading && 'Loading...'}
 			<CountriesList countries={countries} />
 		</main>
 	)

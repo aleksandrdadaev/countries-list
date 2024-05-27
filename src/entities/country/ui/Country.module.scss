@@ -1,0 +1,19 @@
+.wrapper {
+	@apply flex items-start gap-20 p-20 bg-gray-100 rounded-10;
+}
+
+.img {
+	@apply relative shrink-0 w-100 aspect-video rounded-10 overflow-hidden;
+}
+
+.text {
+	@apply flex flex-col gap-8;
+
+	> h2 {
+		@apply text-black H2;
+	}
+
+	> h3 {
+		@apply T2 text-gray-500;
+	}
+}
