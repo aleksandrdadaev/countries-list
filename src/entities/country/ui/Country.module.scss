@@ -4,6 +4,10 @@
 
 .img {
 	@apply relative shrink-0 w-100 aspect-video rounded-10 overflow-hidden;
+
+	> ing {
+		@apply object-cover object-center;
+	}
 }
 
 .text {

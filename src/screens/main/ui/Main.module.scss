@@ -1,0 +1,7 @@
+.wrapper {
+	@apply flex flex-col gap-32;
+}
+
+.content {
+	@apply grow;
+}
