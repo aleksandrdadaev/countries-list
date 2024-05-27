@@ -16,7 +16,7 @@ export const Country: FC<{ country: ICountry }> = ({
 				<Image src={flags.png} alt='' fill draggable={false} />
 			</div>
 			<div className={styles.text}>
-				<h2>{name.official}</h2>
+				<h2>{name.common}</h2>
 				<h3>{createCapitalString(capital)}</h3>
 			</div>
 		</article>
