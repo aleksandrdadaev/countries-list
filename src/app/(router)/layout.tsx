@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
+import MainProvider from '../providers/MainProvider'
 import '../styles/global.scss'
 
 const inter = Inter({
@@ -27,7 +28,9 @@ export default function RootLayout({
 				fontFamily: inter.style.fontFamily,
 			}}
 		>
-			<body>{children}</body>
+			<body>
+				<MainProvider>{children}</MainProvider>
+			</body>
 		</html>
 	)
 }
