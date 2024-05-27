@@ -28,9 +28,7 @@ export default function RootLayout({
 				fontFamily: inter.style.fontFamily,
 			}}
 		>
-			<body>
-				<MainProvider>{children}</MainProvider>
-			</body>
+			<MainProvider>{children}</MainProvider>
 		</html>
 	)
 }
